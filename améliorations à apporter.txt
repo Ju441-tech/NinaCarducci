@@ -1,0 +1,59 @@
+En version desktop :
+1-PERFORMANCE (71) :
+
+. Dimenssionner correctement les images :
+. Changer les formats d'images : privilégier des .WebP ou .AVIF (moins de conso de données, affichage plus rapide).
+. <img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" class="d-block w-100" alt="..."> à optimiser
+. Trop de charges utiles : beaucoup trop de photos sont chargées, peut être, peut on les convertir en nouveau format où len retirer.
+. Eliminer les ressources qui bloquent le rendu en js/CSS.
+. Actier la compression de texte.
+. Réduire les ressources non-utilisées (règles CSS non-utilisées).
+. Des éléments de pages de possèdent pas de width, ni d'height.
+. Pas de cache amélioré (cache permettant l'économie de données par une navigation page précédente/page suivante).
+
+2-BONNES PRATIQUES (100) :
+. Ok
+
+3-ACCESSIBILITE (71) :
+. Il manque des "alt" dans certaines des images du site. x
+. Balises <label> manquantes pour les <input>. x
+. Pas de balise <title>. x
+. Lien instagram qui n'a pas de nom ni de "alt", qu'un icone.
+. Pas d'attribut "lang" dans la balise <html>. x
+. Mauvais classement des titres h1,h2,h3... : ils ne sonnt pas dans l'ordre décroissant.
+. Les couleurs d'arrière plan et de premier plan ne sont pas suffisament contrastés.
+
+
+4-SEO (70) :
+. Le document ne contient pas de balise <title>, donc, pas d'aperçu du site dans les recherches Google. x
+. Pas d' attibut "meta description", qui permet de faire un résumé concis sur les pages de recheches. 
+. Il manque des attributs "alt" à certaines images, ce qui ne permet pas au moteur de recherche de "lire" les photos du site. x
+
+
+Erreur console : no label field with a form field : 
+. Code : mettre des for au <label> exx : <label for ="name"> x
+.
+
+Accessibilité : 
+.mise en place des alt dans les <img>
+.SEO et Access : ajout d'un <title>
+.Accessibilité : ajout lang="fr" à la balise <html>
+.meta description : Nina Carducci
+
+
+Performances :
+. Conversion des images en .webp
+. Conersion image slider en plus de l'image originale, création de 3 mêmes images en fonction de la taille de l'écran d'affichage qui choisira la plus petite image la plus adaptée : (large: résolution 3000w (donc, 3000px), desktop : 1600w, et mobile : 768w).
+
+. minify all
+
+.suppression de fichiers bootstrap et css bootstrap
+. ajout autocomplete="on" dans input mail pour retirer message erreur console.
+.ajout .htaccess
+.defer bootstrap.css
+.defer style.min.css
+. Ajout 150h à imgs carrousel mobile et passage de 768w à 650w.
+. compression images carrousel à 650pixels.
+. suppression de bootstrap.bundle.min.js, de bootstrap.bundle.min.js.map, et bootstrap.min.css.map, et bootstrap.css.map
+
+
