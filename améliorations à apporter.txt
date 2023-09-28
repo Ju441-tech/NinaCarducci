@@ -58,3 +58,9 @@ Performances :
 . icone insta width=20px, height=20px
 . image left carducci : width: 374px height=329px image appareil photo idem mesures.
 
+
+
+referencement:
+.meta et title balises = photographe Bordeaux
+
+
