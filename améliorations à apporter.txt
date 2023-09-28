@@ -43,7 +43,7 @@ Accessibilité :
 
 Performances :
 . Conversion des images en .webp
-. Conersion image slider en plus de l'image originale, création de 3 mêmes images en fonction de la taille de l'écran d'affichage qui choisira la plus petite image la plus adaptée : (large: résolution 3000w (donc, 3000px), desktop : 1600w, et mobile : 768w).
+. Conversion image slider en plus de l'image originale, création de 3 mêmes images en fonction de la taille de l'écran d'affichage qui choisira la plus petite image la plus adaptée : (large: résolution 3000w (donc, 3000px), desktop : 1600w, et mobile : 768w).
 
 . minify all
 
@@ -52,8 +52,9 @@ Performances :
 .ajout .htaccess
 .defer bootstrap.css
 .defer style.min.css
-. Ajout 150h à imgs carrousel mobile et passage de 768w à 650w.
+.  imgs carrousel mobile et passage de 768w à 650w.
 . compression images carrousel à 650pixels.
 . suppression de bootstrap.bundle.min.js, de bootstrap.bundle.min.js.map, et bootstrap.min.css.map, et bootstrap.css.map
-
+. icone insta width=20px, height=20px
+. image left carducci : width: 374px height=329px image appareil photo idem mesures.
 
