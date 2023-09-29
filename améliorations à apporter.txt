@@ -62,5 +62,26 @@ Performances :
 
 referencement:
 .meta et title balises = photographe Bordeaux
+.creation d'un compte google business
+
+
+
+. rich snippet avec google aide au balisage :
+<!-- Balisage JSON-LD généré par l'outil d'aide au balisage de données structurées de Google -->
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Nina Carducci",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "26 avenue",
+    "addressLocality": "33000 Bordeaux"
+  }
+}
+</script>
+
+
+.meta opengraph facebook
 
 
