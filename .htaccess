@@ -31,6 +31,3 @@
   ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
 
 </IfModule>
-<FilesMatch "\.(gif|jpe?g|png|ico|css|js|swf)$">
-Header set Cache-Control "max-age=31536000"
-</FilesMatch>
