@@ -1,5 +1,5 @@
 <IfModule mod_expires.c>
-  ExpiresActive On
+  ExpiresActive Off
 
  # Images
   ExpiresByType image/jpeg "access plus 1 year"
