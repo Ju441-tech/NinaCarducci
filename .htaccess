@@ -32,5 +32,5 @@
 
 </IfModule>
 <FilesMatch "\.(gif|jpe?g|png|ico|css|js|swf)$">
-Header set Cache-Control "s-maxage=31536000"
+Header set Cache-Control "max-age=31536000"
 </FilesMatch>
