@@ -1,6 +1,6 @@
 <IfModule mod_expires.c>
   ExpiresActive On
-  Cache-Control max-age=31536000
+ 
  # Images
   ExpiresByType image/jpeg "access plus 1 year"
   ExpiresByType image/gif "access plus 1 year"
@@ -29,4 +29,6 @@
   # Others
   ExpiresByType application/pdf "access plus 1 year"
   ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
+
+  ExpiresDefault "access plus 1 year"
 </IfModule>
