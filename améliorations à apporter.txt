@@ -57,6 +57,7 @@ Performances :
 . suppression de bootstrap.bundle.min.js, de bootstrap.bundle.min.js.map, et bootstrap.min.css.map, et bootstrap.css.map
 . icone insta width=20px, height=20px
 . image left carducci : width: 374px height=329px image appareil photo idem mesures.
+.jquery plus en cdn il est désormais auto hébergé (il est dans le code du site)
 
 
 
@@ -82,6 +83,7 @@ referencement:
 </script>
 
 
-.meta opengraph facebook
+. RESTE A FAIRE meta opengraph facebook ET cartes twitter
+.creation metas property pour facebook et metas name pour Twitter cards.
 
 
