@@ -85,6 +85,7 @@ referencement:
 
 . RESTE A FAIRE meta opengraph facebook ET cartes twitter
 .creation metas property pour facebook et metas name pour Twitter cards.
+.fait meta property og, et meta name avec photo de plus de 1200px width obligatoire
 
 
 dernières retouches messages erreur wave :
