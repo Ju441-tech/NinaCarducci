@@ -87,3 +87,7 @@ referencement:
 .creation metas property pour facebook et metas name pour Twitter cards.
 
 
+dernières retouches messages erreur wave :
+contraste : changer couleur dans css.min de pills (trouvé dans le dom avec clic droit inspeté) il s'agit de la "surbrillance du choix de categorie de menu de gallery : je l'ai mis plus foncé jaune or foncé. pour résoudre le pb de contraste.
+.Problème balises titres : remise en ordre décroissant dans les balise titres <h>
+.Problème aria region : renommage des sections html remplacement "div" par "header", "footer"...
